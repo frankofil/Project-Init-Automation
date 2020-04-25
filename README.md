@@ -1,7 +1,7 @@
 # Project Init Automation
 
 ## Before you download
-This program uses your **GitHub token** to communicate via API, so if you don't remember your token
+This program uses your __GitHub token__ to communicate via API, so if you don't remember your token
 and don't want to generate a new one, you won't be able to run this program.
 
 ## How to install and setup?
@@ -29,6 +29,6 @@ create name-of-your-project
 ```
 This command will create private repository if you want it to be public use a flag
 ```bash
-create name-of-your-project **-public**
+create name-of-your-project -public
 ```
 
