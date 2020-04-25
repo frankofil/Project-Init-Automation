@@ -25,10 +25,10 @@ Finally add downloaded folder to the PATH to enable usage of 'create' command an
 ## How to use this program?
 To run the script type in
 ```bash
-create name-of-your-project
+create name-of-your-repository
 ```
 This command will create private repository if you want it to be public use a flag
 ```bash
-create name-of-your-project -public
+create name-of-your-repository -public
 ```
 
