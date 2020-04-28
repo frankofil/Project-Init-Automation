@@ -43,6 +43,7 @@ def create():
                 'echo.> requirements.txt'
                 'echo .vscode >> .gitignore',
                 'echo __pycache__ >> .gitignore',
+                'mkdir code'
                 'git init',
                 f'git remote add origin https://github.com/{login}/{originalName}.git',
                 'git add .',
