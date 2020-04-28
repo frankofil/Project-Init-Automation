@@ -37,13 +37,13 @@ def create():
                 f'echo git clone https://github.com/{login}/{originalName}.git >> README.md',
                 'echo ``` >> README.md',
                 'echo Go to downloaded folder and install additional packages >> README.md',
-                'echo ```bash >> README.md'
+                'echo ```bash >> README.md',
                 'echo pip install -r requirements.txt >> README.md',
                 'echo ``` >> README.md',
-                'echo.> requirements.txt'
+                'type nul >> requirements.txt',
                 'echo .vscode >> .gitignore',
                 'echo __pycache__ >> .gitignore',
-                'mkdir code'
+                'mkdir code',
                 'git init',
                 f'git remote add origin https://github.com/{login}/{originalName}.git',
                 'git add .',
