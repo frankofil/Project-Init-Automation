@@ -31,6 +31,16 @@ def create():
     projectName = projectName.replace('_', ' ')
 
     commands = [f'echo # {projectName} >> README.md',
+                'echo ## How to install? >> README.md',
+                'echo Firstly clone repository to your computer >> README.md',
+                'echo ```bash >> README.md',
+                f'echo git clone https://github.com/{login}/{originalName}.git >> README.md',
+                'echo ``` >> README.md',
+                'echo Go to downloaded folder and install additional packages >> README.md',
+                'echo ```bash >> README.md'
+                'echo pip install -r requirements.txt >> README.md',
+                'echo ``` >> README.md',
+                'echo.> requirements.txt'
                 'echo .vscode >> .gitignore',
                 'echo __pycache__ >> .gitignore',
                 'git init',
