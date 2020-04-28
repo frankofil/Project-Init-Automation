@@ -18,7 +18,11 @@ where you want all of you future projects to be stored. Your .env file must foll
 as example below
 ```
 TOKEN = "Here_Paste_Your_GitHub_Token"
-FILEPATH="/path/to/your/project"
+FILEPATH="/path/to/your/projects"
+```
+The same FILEPATH add in create.bat file
+```
+cd "/path/to/your/projects"
 ```
 Finally add downloaded folder to the PATH to enable usage of 'create' command anywhere in Command Prompt
 
