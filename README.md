@@ -27,8 +27,10 @@ To run the script type in
 ```bash
 create name-of-your-repository
 ```
-This command will create private repository if you want it to be public use a flag
+This command will create private repository (by default), if you want it to be public use a flag
 ```bash
 create name-of-your-repository -public
 ```
+
+Project inspired by Kalle Hallden
 
