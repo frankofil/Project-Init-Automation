@@ -13,5 +13,5 @@ if "%1"=="" (
             python create.py %project_name% 
         )
     )
-cd "C:/Users/frankofilok/Documents/Projects/MyProjects/"
+cd "C:/Users/frankofilok/Documents/Projects/"
 cd %project_name%
